@@ -1,0 +1,25 @@
+{
+    "license": "MIT",
+    "name": "rafaeldsb/geocode",
+    "description": "Integração com api do google para obtenção de dados de geolocalização",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Bernardo",
+            "email": "rafael.dsbernardo@gmail.com"
+        }
+    ],
+    "keywords": ["geolocation", "google", "address", "location"],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+	"psr-4": {
+	    "rafaeldsb\\Geocode\\": "src/Geocode"
+	}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
